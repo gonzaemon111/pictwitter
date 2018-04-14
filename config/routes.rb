@@ -8,4 +8,5 @@
     get   'tweets/:id/edit'  => 'tweets#edit'
     patch 'tweets/:id' => 'tweets#update'
     get   'users/:id'  =>  'users#show'
+    get 'tweets/:id' => 'tweets#show'       #ツイート詳細画面
   end
