@@ -1,3 +1,3 @@
 class Tweet < ApplicationRecord
-  belogs_to :user
+  belongs_to :user
 end
